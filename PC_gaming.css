@@ -1,0 +1,824 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.a{
+    background-color:rgb(255, 255, 255) ;
+    display: flex;
+    justify-content: center ;
+    width: 100%;
+    
+}
+
+.logo {
+    display: flex;
+    width: 1140px; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0px; 
+}
+
+.logo img {
+    width: 64px;
+}
+
+.logo .iconify{
+    font-size: 2.2rem;
+    cursor: pointer;
+    
+}
+
+.logo .iconify:hover{
+    color: #a08c75;
+}
+
+.div1 {
+    background-image: url(img/vcvv-min.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.div2 {
+    font-weight: 400;
+    width: 770px;
+    text-shadow: 2px 2px 8px rgb(0 0 0 / 40%);
+    margin: 208px auto 0;
+    cursor: pointer;  
+    text-align: center;
+    
+}
+
+.div2 h1 {
+    font-weight: 400;
+    font-size: 4.5rem;
+    line-height: 1.1;
+    margin-top: 110px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.div2 span{
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+.more button{
+    padding: 15px 55px;
+    font-size: 10px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    margin-top: 50px;
+}
+
+.more button:hover {
+    background-color: white;
+    color: black;
+}
+
+.div3 p{
+    font-size: 1.25rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 18vh;
+}
+
+.div3 a {
+    color: white;
+}
+
+.div3 a:hover{
+    color: #e6e6e6 !important;
+
+}
+
+.div4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    position: relative;
+
+    
+}
+
+.div5{
+    width: 228px;
+    height: 228px;
+    color: #ffffff;
+    background-color: #3a4998;
+    border-radius: 50%;
+    position: relative;
+    left: 43vh; 
+    top: 9vh;
+}
+
+.div6{
+    font-size: 3.75rem;
+    font-family: Ubuntu, sans-serif;
+    width: 40%;
+    position: relative;
+    left: 67vh;
+    top: 17vh;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: right;
+}
+
+.div6 span{
+    margin-left: 22vh;
+
+}
+
+.div7{
+    height: 557px;
+    width: 557px;
+    background-image: url(img/fffff.jpg);
+    background-position: 50% 50%;
+    margin: 30px auto 0 73px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20rem;
+    right: 55rem;
+}
+
+.div8 {
+    height: 310px;
+    width: 310px;
+    background-image: url(img/close-up-guy-holding-controller_23-2148243619.jpg);
+    background-position: 50% 50%;
+    margin: 45rem auto 0 0;
+    border-radius: 50%;
+    position: absolute;
+    right: 77rem;
+    border: 10px solid white;
+}
+
+.div9 {
+    width: 25rem;
+    height: 24rem;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 32rem;
+    left: 60rem;
+    padding: 40px;
+
+}
+
+.div9 h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.875rem;
+    margin: 0;
+    font-family: Ubuntu,sans-serif;
+}
+
+.div9 p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 30px 0 0;
+    line-height: 1.8
+    
+}
+
+.div9 P{
+    font-family: 'Open Sans',sans-serif;
+}
+
+.div9 .p  {
+    margin: 20px 0 0;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+.div9 a {
+    color: black;
+    font-size: 'Open Sans',sans-serif;
+    font-style: italic;
+}
+
+.div9 button {
+    background-color: #344289 !important;
+    color: #ffffff !important;
+    padding: 16px 45px;
+    border: none;
+    line-height: 0.8;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.div9 button:hover{
+    background-color: #111111 !important;
+    color: #ffffff !important;
+}
+
+.div10 {
+    width: 150px;
+    height: 150px;
+    background-color: #e5bb8d;
+    border-radius: 50%;
+    margin-right: 20rem;
+    position: absolute;
+    top: 65rem;
+    left: 42rem;
+    
+}
+
+.div11{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%; 
+    position: absolute;
+    left: 1.6rem;
+    top: 1.6rem;
+
+}
+
+.div12 {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    top: 340px;
+    display: flex;
+}
+
+.div13 {
+    background-image: url(img/fffffff-min.jpg);
+    width: 60%;
+    height: 90vh;
+}
+
+.div14{
+    width: 585px;
+    height: 139px;
+    margin-bottom: 20px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 55.5rem;
+    padding: 30px;
+}
+
+.div15 {
+    background-color: #292f33;
+    height:90vh;
+    width: 40%;
+}
+
+.div14 h2 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: Ubuntu,sans-serif;
+}
+
+.div14 p {
+    font-size: 1.25rem;
+    margin: 27px 0 0;
+    font-weight: 300;
+    line-height: 1.8;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.div14 a {
+    color: white;
+}
+
+.div14 .pagraph {
+    color: white;
+    font-size: 1.25rem;
+    text-align: right;
+    margin-top: 60px;
+    
+}
+
+.div16 {
+    background-color: #f5f7fa;
+    height: 120vh;
+    width: 100%;
+    position: absolute;
+    top: 190rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.div17 {
+    width: 1140px;
+    height: 463px;
+    background-color: #3a4998; 
+    margin-top: 19rem;
+}
+
+.div18  {
+    background-image: url(img/xccx.jpg);
+    width: 868px;
+    height: 609px;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 15rem;
+    left: 11rem;
+
+
+}
+
+.div19 {
+    background-color: white;
+    width: 50vh;
+    height: 45vh;
+    position: relative;
+    top: 28rem;
+    right: 7rem;
+    display: flex;justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.div20 {
+    margin-top: 40px;
+    width: 35vh;
+    height: 35vh;
+
+}
+
+.div20 h1 {
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    font-size: 2.25rem;
+    line-height: 1.1;
+}
+
+.div20 p {
+    font-style: italic;
+    font-size: 1.25rem;
+    margin: 20px 0 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.div20 .paragraph  {
+    margin-top: 20px;
+    line-height: 1.8;
+    font-style: italic;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.div20 .paragraph a {
+    color: black;
+}
+
+.div20 button {
+    background-color: #3a4998 !important;
+    border: none;
+    color: white;
+    height: 5vh;
+    width: 18vh;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    background-image: none;
+    border-style: none;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.div20 button:hover{
+    background-color: #292a33 !important;
+}
+
+.div21 {
+    width: 100%;
+    height: 674px;
+    background-image: url(img/pexels-photo-459762.jpeg);
+    background-position: 50% 50%;
+    position: absolute;
+    top: 255rem;
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+}
+
+.div22 {
+    width: 60%;
+}
+
+.div22 h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1;
+    margin: 90px 717px 0 0;
+    color: white;
+    font-family: Ubuntu,sans-serif;
+}
+
+.div22 button {
+    background-color: transparent;
+    border-color: white ;
+    color: white;
+    font-size: 1rem;
+    border-style: solid;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 40px auto 60px 0;
+    cursor: pointer;
+    padding: 15px 30px ;
+}
+
+
+.div22 button:hover{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.div23 {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    top: 125rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20rem;
+}
+
+.div24 {
+    width: 35%;
+    position: absolute;
+    top: 5rem;
+}
+
+.div24 h1 {
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: Ubuntu,sans-serif;
+}
+
+.div24 p {
+    margin-top: 25px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.8;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.div24{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.div24 a {
+    color: black;
+}
+
+.div24 button {
+    background-color: #3a4998 !important;
+    border: none;
+    color: white;
+    height: 5vh;
+    width: 17vh;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    background-image: none;
+    border-style: none;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.div24 button:hover {
+    background-color: #292a33 !important;
+    color: white;
+}
+
+.div25{
+    width: 300px;
+    height: 300px;
+    background-image: url(img/xccx.jpg);
+    background-position: 50% 50%;
+    margin: 12px auto 0 34px;
+    border-radius: 50% !important;
+    background-size:cover ;
+    position: absolute;
+    right: 35rem;
+}
+
+.div26{
+    width: 300px;
+    height: 300px;
+    background-image: url(img/cc.jpg);
+    background-position: 50% 50%;
+    margin: 12px auto 0 34px;
+    border-radius: 50% !important;
+    background-size:cover ;
+    position: absolute;
+    left: 30rem;
+}
+
+.div27{
+    background-image: url(img/d.jpg);
+    width: 526px;
+    height: 526px;
+    width: 526px;
+    height: 526px;
+    border-radius: 50% !important;
+    background-size: cover;
+    position: absolute;
+    top: 25rem;
+    right: 13rem;
+}
+
+.div28{
+    width: 228px;
+    height: 228px;
+    background-color: #3a4998;
+    border-radius: 50%;
+    position: absolute;
+    top: 40rem;
+    left: 20rem;
+}
+
+.div29 {
+    width: 150px;
+    height: 150px;
+    background-color: #e5bb8d;
+    border-radius: 50%;
+    position: absolute;
+    top: 50rem;
+    left: 40rem;
+}
+
+.div30{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    right: 25px;
+}
+
+.div31 {
+    width: 100%;
+    height: 813px;
+    background-color: #332e29;
+    position: relative;
+    top: 128rem;
+}
+
+.div32{
+    height: 813px;
+    width: 377px;
+    position: relative;
+    left:109vh;
+    background-color: #e5bb8d;
+}
+
+.div33{
+    background-image: url(img/ccccc.jpg);
+    height:511px ;
+    width:731px ;
+    background-size:cover ;
+    position: absolute;
+    top: 29vh;
+    right: 410px;
+
+}
+
+
+.div34{
+    height:371px ;
+    width: 413px;
+    background-color: white;
+    position: relative;
+    position: absolute;
+    right: 120vh;
+    top: 10vh;
+    padding: 30px;
+    background-image: none;
+}
+
+.div34 h1{
+    font-weight: 700;
+    line-height: 1.3;
+    font-size: 2.25rem;
+    margin: 0;
+    font-family: Ubuntu,sans-serif;
+}
+
+.div34 p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 36px;
+    margin: 20px 0 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.div34 a{
+    color: black;
+}
+
+.div34 button{
+    font-size: 1rem;
+    border-style: solid;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 34px auto 0 0;
+    padding: 15px 30px;
+    border-color: black;
+    background-color: white;
+}
+
+.div34 button:hover{
+    background-color: #000000 !important;
+    color: white;
+}
+
+.div35{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    top: 230vh;
+
+}
+
+.div36{
+    background-image: url(img/gggg-min.jpg);
+    height:597px ;
+    width:472px ;
+    background-size:cover ;
+    position: absolute;
+    top: 7vh;
+    left: 45vh;
+    padding: 30px;
+}
+
+.div37{
+    font-family: 'Open Sans',sans-serif;
+}
+
+.div37 h1{
+    line-height: 1.1;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 2.25rem;
+    margin: 0;
+    color: #4d4d4d !important;
+    font-family: Ubuntu,sans-serif;
+    position: absolute;
+    top: 10vh;
+    left: 109vh;
+}
+
+.div37 input {
+    padding: 10px 12px;
+    width: 524px;
+    height: 25px;
+    position: absolute;
+    top: 17vh;
+    left: 109vh;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 17px;
+}
+
+.div37 .inp {
+    top: 25vh;
+
+}
+
+.div37 textarea{
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 34vh;
+    left: 109vh;
+    border: none;
+    color: #4d4d4d !important;
+    padding: 10px;
+}
+
+.div37 button{
+    padding: 15px 30px;
+    border-radius: 30px;
+    position: absolute;
+    top: 45vh;
+    left: 109vh;
+    border-color: #4d4d4d !important;  
+    font-size: 18px;
+    color: #4d4d4d !important;
+    cursor: pointer;
+}
+
+.div37 button:hover {
+    background-color: #292a33;
+    color: white !important;
+}
+
+.div37 .h1 {
+    font-weight: 700;
+    line-height: 1.3;
+    font-size: 2.25rem;
+    margin: 0;
+    font-family: Ubuntu,sans-serif;
+    position: absolute;
+    top: 55vh;
+    font-weight: 400;
+
+}
+
+.icon {
+    position: absolute;
+    top:64vh ;
+    left: 109vh;
+    font-size: 34px;
+}
+
+.icon .iconify {
+    margin-right: 10px;
+
+}
+
+.div38 {
+    position: absolute;
+    top: 67vh;
+    left: 109vh;
+    margin-top: 20px;
+    line-height: 1.8;
+    font-style: italic;
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.div38 a {
+    color: black;
+}
+
+.div39 {
+    width: 1903px;
+    height:250px ;
+    background-color:#333333 ;
+    position: relative;
+    top: 228vh;
+}
+
+.div40 {
+    width: 50%;
+    position: relative;
+    left: 700px;
+    color: #fff;
+    padding-top: 50px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.text {
+    position: absolute;
+    left: 110px;
+}
+
+.div41 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+}
+
+.div41 p {
+    color: #fff;
+    margin: 0 5px;
+}
+
+.div41 a:hover {
+    color: #4d4d4d;
+}
+
+.div41 a {
+    color: #bbc4ee;
+}
